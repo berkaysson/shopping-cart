@@ -1,3 +1,46 @@
-body {
+:root{
+  --gap: 0.8rem;
+  --padding: 1rem;
+  --padding-sl: 0.5rem;
+  --padding-lg: 3rem;
+  --btn-padding: 0.5rem 0.7rem;
+  --margin: 1rem;
+
+  --border-radius: 6px;
+
+  --font-lg: 1.5rem;
+  --font-xlg: 2.5rem;
+  --font-sl: 0.8rem;
+  --font-md: 1.1rem;
+
+  --light-color: #F2E6D3;
+  --light-alt-color: #A09D7F;
+  --dark-color: #44373a;
+  --dark-alt-color: #7a595d;
+  --theme-color: #92e08a;
+}
+
+*{
   margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: inherit;
+}
+
+html{
+  height: 100%;
+  font-size: 15px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-size: var(--font-md);
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
