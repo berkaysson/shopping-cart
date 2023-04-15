@@ -1,9 +1,10 @@
 :root{
   --gap: 0.8rem;
+  --gap-lg:2rem;
   --padding: 1rem;
   --padding-sl: 0.5rem;
-  --padding-lg: 3rem;
-  --btn-padding: 0.5rem 0.7rem;
+  --padding-lg: 5rem;
+  --btn-padding: 0.5rem 1rem;
   --margin: 1rem;
 
   --border-radius: 6px;
@@ -15,8 +16,8 @@
 
   --light-color: #F2E6D3;
   --light-alt-color: #A09D7F;
-  --dark-color: #44373a;
-  --dark-alt-color: #7a595d;
+  --dark-color: #3a2f32;
+  --dark-alt-color: #755054;
   --theme-color: #92e08a;
 }
 
@@ -33,14 +34,21 @@ html{
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   font-size: var(--font-md);
   background-color: var(--light-color);
   color: var(--dark-color);
   font-family: 'Montserrat', sans-serif;
+  transition: all 0.2s ease-in;
+  overflow-x: hidden;
 }
 
 a{
   text-decoration: none;
+  color: inherit;
+}
+
+li{
+  list-style: none;
 }
