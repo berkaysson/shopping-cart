@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.b288a195.css",
+    "main.js": "/shopping-cart/static/js/main.dc452c38.js",
+    "static/media/pexels-karolina-grabowska-4210311.jpg": "/shopping-cart/static/media/pexels-karolina-grabowska-4210311.6e39944c2dd875546128.jpg",
+    "static/media/wraps.jpeg": "/shopping-cart/static/media/wraps.531f99a598056b8fe6c7.jpeg",
+    "static/media/dogbag.jpg": "/shopping-cart/static/media/dogbag.62daa46e3e9389b396b4.jpg",
+    "static/media/producebag.jpeg": "/shopping-cart/static/media/producebag.800e9d47fc6d13e79d72.jpeg",
+    "static/media/shampoobar.jpg": "/shopping-cart/static/media/shampoobar.2933a2ba904a35d215d1.jpg",
+    "static/media/coffeecup.jpg": "/shopping-cart/static/media/coffeecup.d8e208e7b1e86910fc27.jpg",
+    "static/media/waterbottle.jpg": "/shopping-cart/static/media/waterbottle.74ff7f6a91e5dd151101.jpg",
+    "static/media/cutleryset3.jpg": "/shopping-cart/static/media/cutleryset3.73b90a4285140c0d27e5.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "main.b288a195.css.map": "/shopping-cart/static/css/main.b288a195.css.map",
+    "main.dc452c38.js.map": "/shopping-cart/static/js/main.dc452c38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b288a195.css",
+    "static/js/main.dc452c38.js"
+  ]
+}
