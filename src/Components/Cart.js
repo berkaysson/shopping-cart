@@ -28,7 +28,7 @@ export const Cart = ({ showCart, cartData, removeItem }) => {
       <CloseButton onClick={showCart}>Close</CloseButton>
       <CartContent>
         {cartData.map((item) => (
-          <CartItem key={item.id} item={item} removeItem={removeItem} />
+          <CartItem key={item.id} item={item} removeItem={()=>removeItem(item)} />
         ))}
       </CartContent>
     </CartContainer>

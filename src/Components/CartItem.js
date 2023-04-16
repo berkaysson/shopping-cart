@@ -45,7 +45,7 @@ const CartItem = ({ item, removeItem }) => {
         <ItemImage src={item.image} alt={item.title} />
         <div>
           <ItemTitle>{item.title}</ItemTitle>
-          <ItemPrice>${item.price}</ItemPrice>
+          <ItemPrice>${item.price}x{item.quantity}</ItemPrice>
         </div>
       </ItemInfoWrapper>
       <RemoveButton onClick={() => removeItem(item.id)}>Remove</RemoveButton>
