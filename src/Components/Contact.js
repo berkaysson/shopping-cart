@@ -5,6 +5,8 @@ const ContactContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: var(--padding-lg);
+  margin-top: 5%;
+  text-align: center;
   background-color: transparent;
   border-radius: var(--border-radius);
   backdrop-filter: blur(5px);
