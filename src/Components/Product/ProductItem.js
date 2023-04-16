@@ -24,7 +24,7 @@ const ProductItemWrapper = styled.div`
   transition: box-shadow 0.1s ease-in-out;
   justify-content: space-between;
   width: 250px;
-  height: 400px;
+  height: 450px;
   text-align: center;
 
   &:hover {
