@@ -26,6 +26,10 @@ const AppWrapper = styled.div`
   background-color: var(--dark-color);
   padding: var(--padding) var(--padding-lg);
   position: relative;
+
+  @media (max-width: 768px) {
+    padding: 0.5rem;
+  }
 `;
 
 const CartWrapper = styled.div`
